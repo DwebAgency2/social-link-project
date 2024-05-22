@@ -90,16 +90,10 @@ button{
 }
 
 
-
-
 button:hover {
     background: hsl(60, 94%, 55%);
     color: black;
 }
-
-
-
-
 
 
 /* Extra Small Devices  */
