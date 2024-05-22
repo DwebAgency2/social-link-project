@@ -6,4 +6,95 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+   
 }
+
+a{
+    color: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials_info{
+    width:30%;
+    height: 100vh;
+    padding: 7px 30px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.socials_info img{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.socials_info h1{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.socials_info h5{
+    color: yellow;
+    margin-bottom: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.socials_info p{
+color: hsl(0, 0%, 100%);
+margin-bottom: 20px;
+}
+
+.socials_links{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Automatically adjusts the number of columns based on screen size */
+    gap: 10px; /* Gap between grid items */
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add some padding around the grid */
+
+}
+
+button{
+    background: hsl(0, 0%, 20%);
+    padding: 15px ;
+    border: none;
+    margin: 3px;
+    border-radius: 7px;
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+button a {
+    
+    width: 100%; 
+    text-align: center; 
+    font-size: 18px;
+}
+
+button:hover {
+    background: hsl(60, 94%, 55%);
+}
+button:hover a {
+    color: black;
+}
+
