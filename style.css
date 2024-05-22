@@ -75,7 +75,10 @@ margin-bottom: 20px;
 
 button{
     background: hsl(0, 0%, 20%);
+    color: white;
+    font-size: 18px;
     padding: 15px ;
+    text-align: center;
     border: none;
     margin: 3px;
     border-radius: 7px;
@@ -87,19 +90,13 @@ button{
 }
 
 
-button a {
-    
-    width: 100%; 
-    text-align: center; 
-    font-size: 18px;
-}
+
 
 button:hover {
     background: hsl(60, 94%, 55%);
-}
-button:hover a {
     color: black;
 }
+
 
 
 
